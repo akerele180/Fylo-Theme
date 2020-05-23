@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    /*margin: 0;*/
+    /*padding: 0;*/
+}
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px ;
+    background: hsl(204, 43%, 93%);
+}
+h1.header{
+    color: hsl(179, 62%, 43%);
+    /*color: hsl(218, 22%, 67%);*/ 
+    font-weight: 700;
+}
+.sign {
+    color: white;
+    background: hsl(71, 73%, 54%);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 10px 0px #0000006b;
+}
+h2 {
+    color: hsl(71, 73%, 54%);
+}
+p, span {
+    color: hsl(218, 22%, 67%);;
+}
+.box {
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 80px;
+}
+.box1 {
+    padding: 15px 50px 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: white;
+}
+.box2{
+    background: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 5px;
+}
+.box3{
+    background: hsla(179, 62%, 43%, 0.596);
+    color: white;
+    border-bottom-right-radius: 5px;
+}
+.box3 p, .box3 h1, .box2 p, .box2 h2, .box2 h1 {
+    color: white;
+}
+.box2, .box3{
+    width:50%;
+    padding: 15px 50px 30px;  
+}
+.container {
+    display: flex;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@media screen and (max-width: 375px){
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+}
