@@ -68,6 +68,8 @@ p, span {
 @media screen and (max-width: 375px){
     .box{
         display: flex;
-        flex-direction: column;
     }
+    .container {
+        display: flex;
+        flex-direction: column;
 }
